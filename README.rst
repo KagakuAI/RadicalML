@@ -3,19 +3,27 @@ RadicalML: Machine Learning for Radical Species
 
 **RadicalML** is a Python-based framework for the **modeling of radical species properties** using **Machine Learning (ML)**.
 
+Installation
+------------
+
 
 Installation
 ------------
 
-Recommended: Use a conda environment.
+``RadicalML`` can be installed using conda/mamba package managers.
 
 .. code-block:: bash
 
-   conda create -n radicalml python=3.9 -y
-   conda activate radicalml
+    git clone https://github.com/KagakuAI/RadicalML.git
+    conda env create -f RadicalML/conda/radical_linux.yml
+    conda activate radical
 
-   # Install RadicalML from GitHub
-   pip install git+https://github.com/KagakuAI/RadicalML.git
+The installed ``RadicalML`` environment can then be added to the Jupyter platform:
+
+.. code-block:: bash
+
+    conda install ipykernel
+    python -m ipykernel install --user --name radical --display-name "radical"
 
 Quick start
 ------------
