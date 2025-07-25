@@ -6,10 +6,6 @@ RadicalML: Machine Learning for Radical Species
 Installation
 ------------
 
-
-Installation
-------------
-
 ``RadicalML`` can be installed using conda/mamba package managers.
 
 .. code-block:: bash
@@ -24,8 +20,3 @@ The installed ``RadicalML`` environment can then be added to the Jupyter platfor
 
     conda install ipykernel
     python -m ipykernel install --user --name radical --display-name "radical"
-
-Quick start
-------------
-
-See the examples of ``RadicalML`` application for different tasks in the `tutorial collection <tutorials>`_ .

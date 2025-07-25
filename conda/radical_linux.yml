@@ -11,4 +11,5 @@ dependencies:
   - pip:
       - rdkit
       - molfeat
-      - git+https://github.com/KagakuAI/milearn.git
+      - git+https://github.com/KagakuAI/QSARmil.git
+      - git+https://github.com/KagakuAI/QSARcons.git
